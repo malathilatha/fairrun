@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.log
+.DS_Store
+.vscode/
+.idea/
+employers_sandbox.json
+fairrun_sandbox.db

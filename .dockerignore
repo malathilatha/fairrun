@@ -1,0 +1,11 @@
+.git
+.env
+*.env
+employers_sandbox*.json
+*.db
+*.sqlite*
+__pycache__
+.pytest_cache
+tests
+scripts
+README.md
