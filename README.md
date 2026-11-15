@@ -5,8 +5,8 @@ Built for the Airwallex Agentic Banking Hackathon, Kit 6 (Multi-Employer Payroll
 
 > Status: the full story runs end to end on the **real Airwallex sandbox** (three connected accounts)
 > and on an offline mock with the same interface.
->
-> ## Try it in 60 seconds
+
+## Try it in 60 seconds
 
 - **Live demo (mock data, nothing to install):** http://100.61.182.169
 - **Video (4 min):** https://youtu.be/6WyfwzEMqHw
