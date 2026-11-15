@@ -5,6 +5,22 @@ Built for the Airwallex Agentic Banking Hackathon, Kit 6 (Multi-Employer Payroll
 
 > Status: the full story runs end to end on the **real Airwallex sandbox** (three connected accounts)
 > and on an offline mock with the same interface.
+>
+> ## Try it in 60 seconds
+
+- **Live demo (mock data, nothing to install):** http://100.61.182.169
+- **Video (4 min):** https://youtu.be/6WyfwzEMqHw
+
+Or run it yourself (Python 3.11+):
+
+    git clone https://github.com/malathilatha/fairrun.git
+    cd fairrun
+    pip install -r requirements.txt
+    streamlit run dashboard/app.py
+
+No keys are needed: the dashboard runs on a built-in mock of Airwallex. With `ANTHROPIC_API_KEY` set, the Claude
+agents run live; without it, fixed rules take over. The real Airwallex sandbox run is `python -m scenarios.real_run`
+(needs your own sandbox keys).
 
 ## The problem
 
