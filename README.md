@@ -198,7 +198,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 python -m scenarios.demo_run      # the full demo story on the mock
-streamlit run dashboard/app.py    # the same story as a dashboard (six clicks)
+streamlit run dashboard/app.py    # the same story as a dashboard (seven clicks)
 python -m pytest -q               # 53 tests
 python -m scenarios.stress_run 200 2026   # head-to-head stress test, any size and seed
 ```
